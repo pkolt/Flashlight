@@ -3,8 +3,8 @@ name: main
 on: push
 
 jobs:
-  lint:
-    name: Linting
+  test:
+    name: Testing
     runs-on: ubuntu-latest
 
     strategy:
@@ -19,5 +19,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: Install dependencies
       run: npm i
-    - name: Lint files
+    - name: Testing
+      run: npm test
+    - name: Linting
       run: npm run lint
