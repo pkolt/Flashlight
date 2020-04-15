@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "flashlight-tvOS.app"
-               BlueprintName = "flashlight-tvOS"
-               ReferencedContainer = "container:flashlight.xcodeproj">
+               BuildableName = "Flashlight-tvOS.app"
+               BlueprintName = "Flashlight-tvOS"
+               ReferencedContainer = "container:Flashlight.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "flashlight-tvOSTests.xctest"
-               BlueprintName = "flashlight-tvOSTests"
-               ReferencedContainer = "container:flashlight.xcodeproj">
+               BuildableName = "Flashlight-tvOSTests.xctest"
+               BlueprintName = "Flashlight-tvOSTests"
+               ReferencedContainer = "container:Flashlight.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "flashlight-tvOS.app"
-            BlueprintName = "flashlight-tvOS"
-            ReferencedContainer = "container:flashlight.xcodeproj">
+            BuildableName = "Flashlight-tvOS.app"
+            BlueprintName = "Flashlight-tvOS"
+            ReferencedContainer = "container:Flashlight.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "flashlight-tvOS.app"
-            BlueprintName = "flashlight-tvOS"
-            ReferencedContainer = "container:flashlight.xcodeproj">
+            BuildableName = "Flashlight-tvOS.app"
+            BlueprintName = "Flashlight-tvOS"
+            ReferencedContainer = "container:Flashlight.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

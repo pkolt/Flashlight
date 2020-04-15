@@ -129,7 +129,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.flashlight"
+        applicationId "com.pkolt.flashlight"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

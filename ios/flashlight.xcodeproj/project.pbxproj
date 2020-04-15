@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* flashlightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* flashlightTests.m */; };
-		0B8C01F4209505589C03E857 /* libPods-flashlight-flashlightTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 076E2D54D3F745BE92D16EAD /* libPods-flashlight-flashlightTests.a */; };
+		00E356F31AD99517003FC87E /* FlashlightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* FlashlightTests.m */; };
+		0B8C01F4209505589C03E857 /* libPods-Flashlight-FlashlightTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 076E2D54D3F745BE92D16EAD /* libPods-Flashlight-FlashlightTests.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -16,10 +16,10 @@
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* flashlightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* flashlightTests.m */; };
-		51EC7A5A6D8708CAF3029389 /* libPods-flashlight-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 248A91E5247606A094C83279 /* libPods-flashlight-tvOS.a */; };
-		89133D0F7E0DBD5DC2517739 /* libPods-flashlight-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5AE237BEE02E819E869E8C0 /* libPods-flashlight-tvOSTests.a */; };
-		BF8A1CB4F2D6C74BD383B6AA /* libPods-flashlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8635B05E530A64C2F4817F0 /* libPods-flashlight.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* FlashlightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* FlashlightTests.m */; };
+		51EC7A5A6D8708CAF3029389 /* libPods-Flashlight-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 248A91E5247606A094C83279 /* libPods-Flashlight-tvOS.a */; };
+		89133D0F7E0DBD5DC2517739 /* libPods-Flashlight-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5AE237BEE02E819E869E8C0 /* libPods-Flashlight-tvOSTests.a */; };
+		BF8A1CB4F2D6C74BD383B6AA /* libPods-Flashlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8635B05E530A64C2F4817F0 /* libPods-Flashlight.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,43 +28,43 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = flashlight;
+			remoteInfo = Flashlight;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "flashlight-tvOS";
+			remoteInfo = "Flashlight-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* flashlightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flashlightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* FlashlightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashlightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* flashlightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = flashlightTests.m; sourceTree = "<group>"; };
-		076E2D54D3F745BE92D16EAD /* libPods-flashlight-flashlightTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-flashlight-flashlightTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07F961A680F5B00A75B9A /* flashlight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flashlight.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = flashlight/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = flashlight/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* FlashlightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlashlightTests.m; sourceTree = "<group>"; };
+		076E2D54D3F745BE92D16EAD /* libPods-Flashlight-FlashlightTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Flashlight-FlashlightTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* Flashlight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashlight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Flashlight/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Flashlight/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = flashlight/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = flashlight/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = flashlight/main.m; sourceTree = "<group>"; };
-		1734BDD563B3CDDAC52E9339 /* Pods-flashlight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flashlight.release.xcconfig"; path = "Target Support Files/Pods-flashlight/Pods-flashlight.release.xcconfig"; sourceTree = "<group>"; };
-		236A7536C71087627F006069 /* Pods-flashlight-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flashlight-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-flashlight-tvOSTests/Pods-flashlight-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		248A91E5247606A094C83279 /* libPods-flashlight-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-flashlight-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E47B1E0B4A5D006451C7 /* flashlight-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "flashlight-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* flashlight-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "flashlight-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		40C4BF4A8F98F507F280969F /* Pods-flashlight-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flashlight-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-flashlight-tvOSTests/Pods-flashlight-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		63093FE29820396BA247357F /* Pods-flashlight-flashlightTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flashlight-flashlightTests.release.xcconfig"; path = "Target Support Files/Pods-flashlight-flashlightTests/Pods-flashlight-flashlightTests.release.xcconfig"; sourceTree = "<group>"; };
-		6ADF232214D25AE39AC75E51 /* Pods-flashlight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flashlight.debug.xcconfig"; path = "Target Support Files/Pods-flashlight/Pods-flashlight.debug.xcconfig"; sourceTree = "<group>"; };
-		71ABDD52ECBC2D56236CEE88 /* Pods-flashlight-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flashlight-tvOS.release.xcconfig"; path = "Target Support Files/Pods-flashlight-tvOS/Pods-flashlight-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		C5AE237BEE02E819E869E8C0 /* libPods-flashlight-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-flashlight-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC00291C3BB03815AC1AE1C4 /* Pods-flashlight-flashlightTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flashlight-flashlightTests.debug.xcconfig"; path = "Target Support Files/Pods-flashlight-flashlightTests/Pods-flashlight-flashlightTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D8635B05E530A64C2F4817F0 /* libPods-flashlight.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-flashlight.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD5F4E8654153A1F1E2552E0 /* Pods-flashlight-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flashlight-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-flashlight-tvOS/Pods-flashlight-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Flashlight/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Flashlight/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Flashlight/main.m; sourceTree = "<group>"; };
+		1734BDD563B3CDDAC52E9339 /* Pods-Flashlight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flashlight.release.xcconfig"; path = "Target Support Files/Pods-Flashlight/Pods-Flashlight.release.xcconfig"; sourceTree = "<group>"; };
+		236A7536C71087627F006069 /* Pods-Flashlight-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flashlight-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Flashlight-tvOSTests/Pods-Flashlight-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		248A91E5247606A094C83279 /* libPods-Flashlight-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Flashlight-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E47B1E0B4A5D006451C7 /* Flashlight-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flashlight-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* Flashlight-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flashlight-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C4BF4A8F98F507F280969F /* Pods-Flashlight-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flashlight-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Flashlight-tvOSTests/Pods-Flashlight-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		63093FE29820396BA247357F /* Pods-Flashlight-FlashlightTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flashlight-FlashlightTests.release.xcconfig"; path = "Target Support Files/Pods-Flashlight-FlashlightTests/Pods-Flashlight-FlashlightTests.release.xcconfig"; sourceTree = "<group>"; };
+		6ADF232214D25AE39AC75E51 /* Pods-Flashlight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flashlight.debug.xcconfig"; path = "Target Support Files/Pods-Flashlight/Pods-Flashlight.debug.xcconfig"; sourceTree = "<group>"; };
+		71ABDD52ECBC2D56236CEE88 /* Pods-Flashlight-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flashlight-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Flashlight-tvOS/Pods-Flashlight-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		C5AE237BEE02E819E869E8C0 /* libPods-Flashlight-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Flashlight-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC00291C3BB03815AC1AE1C4 /* Pods-Flashlight-FlashlightTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flashlight-FlashlightTests.debug.xcconfig"; path = "Target Support Files/Pods-Flashlight-FlashlightTests/Pods-Flashlight-FlashlightTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D8635B05E530A64C2F4817F0 /* libPods-Flashlight.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Flashlight.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD5F4E8654153A1F1E2552E0 /* Pods-Flashlight-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flashlight-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Flashlight-tvOS/Pods-Flashlight-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B8C01F4209505589C03E857 /* libPods-flashlight-flashlightTests.a in Frameworks */,
+				0B8C01F4209505589C03E857 /* libPods-Flashlight-FlashlightTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF8A1CB4F2D6C74BD383B6AA /* libPods-flashlight.a in Frameworks */,
+				BF8A1CB4F2D6C74BD383B6AA /* libPods-Flashlight.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51EC7A5A6D8708CAF3029389 /* libPods-flashlight-tvOS.a in Frameworks */,
+				51EC7A5A6D8708CAF3029389 /* libPods-Flashlight-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +98,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89133D0F7E0DBD5DC2517739 /* libPods-flashlight-tvOSTests.a in Frameworks */,
+				89133D0F7E0DBD5DC2517739 /* libPods-Flashlight-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* flashlightTests */ = {
+		00E356EF1AD99517003FC87E /* FlashlightTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* flashlightTests.m */,
+				00E356F21AD99517003FC87E /* FlashlightTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = flashlightTests;
+			path = FlashlightTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +122,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* flashlight */ = {
+		13B07FAE1A68108700A75B9A /* Flashlight */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +133,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = flashlight;
+			name = Flashlight;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				D8635B05E530A64C2F4817F0 /* libPods-flashlight.a */,
-				076E2D54D3F745BE92D16EAD /* libPods-flashlight-flashlightTests.a */,
-				248A91E5247606A094C83279 /* libPods-flashlight-tvOS.a */,
-				C5AE237BEE02E819E869E8C0 /* libPods-flashlight-tvOSTests.a */,
+				D8635B05E530A64C2F4817F0 /* libPods-Flashlight.a */,
+				076E2D54D3F745BE92D16EAD /* libPods-Flashlight-FlashlightTests.a */,
+				248A91E5247606A094C83279 /* libPods-Flashlight-tvOS.a */,
+				C5AE237BEE02E819E869E8C0 /* libPods-Flashlight-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,9 +159,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* flashlight */,
+				13B07FAE1A68108700A75B9A /* Flashlight */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* flashlightTests */,
+				00E356EF1AD99517003FC87E /* FlashlightTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				FB23EF1F35644B940243163D /* Pods */,
@@ -174,10 +174,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* flashlight.app */,
-				00E356EE1AD99517003FC87E /* flashlightTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* flashlight-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* flashlight-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* Flashlight.app */,
+				00E356EE1AD99517003FC87E /* FlashlightTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* Flashlight-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* Flashlight-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -185,14 +185,14 @@
 		FB23EF1F35644B940243163D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6ADF232214D25AE39AC75E51 /* Pods-flashlight.debug.xcconfig */,
-				1734BDD563B3CDDAC52E9339 /* Pods-flashlight.release.xcconfig */,
-				CC00291C3BB03815AC1AE1C4 /* Pods-flashlight-flashlightTests.debug.xcconfig */,
-				63093FE29820396BA247357F /* Pods-flashlight-flashlightTests.release.xcconfig */,
-				DD5F4E8654153A1F1E2552E0 /* Pods-flashlight-tvOS.debug.xcconfig */,
-				71ABDD52ECBC2D56236CEE88 /* Pods-flashlight-tvOS.release.xcconfig */,
-				236A7536C71087627F006069 /* Pods-flashlight-tvOSTests.debug.xcconfig */,
-				40C4BF4A8F98F507F280969F /* Pods-flashlight-tvOSTests.release.xcconfig */,
+				6ADF232214D25AE39AC75E51 /* Pods-Flashlight.debug.xcconfig */,
+				1734BDD563B3CDDAC52E9339 /* Pods-Flashlight.release.xcconfig */,
+				CC00291C3BB03815AC1AE1C4 /* Pods-Flashlight-FlashlightTests.debug.xcconfig */,
+				63093FE29820396BA247357F /* Pods-Flashlight-FlashlightTests.release.xcconfig */,
+				DD5F4E8654153A1F1E2552E0 /* Pods-Flashlight-tvOS.debug.xcconfig */,
+				71ABDD52ECBC2D56236CEE88 /* Pods-Flashlight-tvOS.release.xcconfig */,
+				236A7536C71087627F006069 /* Pods-Flashlight-tvOSTests.debug.xcconfig */,
+				40C4BF4A8F98F507F280969F /* Pods-Flashlight-tvOSTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -201,9 +201,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* flashlightTests */ = {
+		00E356ED1AD99517003FC87E /* FlashlightTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "flashlightTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "FlashlightTests" */;
 			buildPhases = (
 				87AE127E20E9740E14305BF5 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -215,14 +215,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = flashlightTests;
-			productName = flashlightTests;
-			productReference = 00E356EE1AD99517003FC87E /* flashlightTests.xctest */;
+			name = FlashlightTests;
+			productName = FlashlightTests;
+			productReference = 00E356EE1AD99517003FC87E /* FlashlightTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* flashlight */ = {
+		13B07F861A680F5B00A75B9A /* Flashlight */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "flashlight" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Flashlight" */;
 			buildPhases = (
 				750F390EB76DA6CA96E14E35 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -235,14 +235,14 @@
 			);
 			dependencies = (
 			);
-			name = flashlight;
-			productName = flashlight;
-			productReference = 13B07F961A680F5B00A75B9A /* flashlight.app */;
+			name = Flashlight;
+			productName = Flashlight;
+			productReference = 13B07F961A680F5B00A75B9A /* Flashlight.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* flashlight-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* Flashlight-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "flashlight-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Flashlight-tvOS" */;
 			buildPhases = (
 				80938D9BF34535EE2574527E /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -255,14 +255,14 @@
 			);
 			dependencies = (
 			);
-			name = "flashlight-tvOS";
-			productName = "flashlight-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* flashlight-tvOS.app */;
+			name = "Flashlight-tvOS";
+			productName = "Flashlight-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* Flashlight-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* flashlight-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* Flashlight-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "flashlight-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Flashlight-tvOSTests" */;
 			buildPhases = (
 				C4591C91BF253AB415E9B857 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -274,9 +274,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "flashlight-tvOSTests";
-			productName = "flashlight-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* flashlight-tvOSTests.xctest */;
+			name = "Flashlight-tvOSTests";
+			productName = "Flashlight-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* Flashlight-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -305,7 +305,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "flashlight" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Flashlight" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -318,10 +318,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* flashlight */,
-				00E356ED1AD99517003FC87E /* flashlightTests */,
-				2D02E47A1E0B4A5D006451C7 /* flashlight-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* flashlight-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* Flashlight */,
+				00E356ED1AD99517003FC87E /* FlashlightTests */,
+				2D02E47A1E0B4A5D006451C7 /* Flashlight-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* Flashlight-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -404,7 +404,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-flashlight-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Flashlight-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -426,7 +426,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-flashlight-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Flashlight-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -448,7 +448,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-flashlight-flashlightTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Flashlight-FlashlightTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -470,7 +470,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-flashlight-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Flashlight-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -522,7 +522,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* flashlightTests.m in Sources */,
+				00E356F31AD99517003FC87E /* FlashlightTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,7 +548,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* flashlightTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* FlashlightTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,12 +557,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* flashlight */;
+			target = 13B07F861A680F5B00A75B9A /* Flashlight */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* flashlight-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* Flashlight-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -574,7 +574,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = flashlight;
+			path = Flashlight;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -582,14 +582,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC00291C3BB03815AC1AE1C4 /* Pods-flashlight-flashlightTests.debug.xcconfig */;
+			baseConfigurationReference = CC00291C3BB03815AC1AE1C4 /* Pods-Flashlight-FlashlightTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = flashlightTests/Info.plist;
+				INFOPLIST_FILE = FlashlightTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -599,17 +599,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flashlight.app/flashlight";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flashlight.app/Flashlight";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63093FE29820396BA247357F /* Pods-flashlight-flashlightTests.release.xcconfig */;
+			baseConfigurationReference = 63093FE29820396BA247357F /* Pods-Flashlight-FlashlightTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = flashlightTests/Info.plist;
+				INFOPLIST_FILE = FlashlightTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -619,13 +619,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flashlight.app/flashlight";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flashlight.app/Flashlight";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6ADF232214D25AE39AC75E51 /* Pods-flashlight.debug.xcconfig */;
+			baseConfigurationReference = 6ADF232214D25AE39AC75E51 /* Pods-Flashlight.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -635,7 +635,7 @@
 					"$(inherited)",
 					"FB_SONARKIT_ENABLED=1",
 				);
-				INFOPLIST_FILE = flashlight/Info.plist;
+				INFOPLIST_FILE = Flashlight/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -643,7 +643,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = flashlight;
+				PRODUCT_NAME = Flashlight;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -652,12 +652,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1734BDD563B3CDDAC52E9339 /* Pods-flashlight.release.xcconfig */;
+			baseConfigurationReference = 1734BDD563B3CDDAC52E9339 /* Pods-Flashlight.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = flashlight/Info.plist;
+				INFOPLIST_FILE = Flashlight/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -665,7 +665,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = flashlight;
+				PRODUCT_NAME = Flashlight;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -673,7 +673,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD5F4E8654153A1F1E2552E0 /* Pods-flashlight-tvOS.debug.xcconfig */;
+			baseConfigurationReference = DD5F4E8654153A1F1E2552E0 /* Pods-Flashlight-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -684,14 +684,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "flashlight-tvOS/Info.plist";
+				INFOPLIST_FILE = "Flashlight-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.flashlight-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Flashlight-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -701,7 +701,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71ABDD52ECBC2D56236CEE88 /* Pods-flashlight-tvOS.release.xcconfig */;
+			baseConfigurationReference = 71ABDD52ECBC2D56236CEE88 /* Pods-Flashlight-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -712,14 +712,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "flashlight-tvOS/Info.plist";
+				INFOPLIST_FILE = "Flashlight-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.flashlight-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Flashlight-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -729,7 +729,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 236A7536C71087627F006069 /* Pods-flashlight-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 236A7536C71087627F006069 /* Pods-Flashlight-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -739,24 +739,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "flashlight-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "Flashlight-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.flashlight-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Flashlight-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flashlight-tvOS.app/flashlight-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flashlight-tvOS.app/Flashlight-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40C4BF4A8F98F507F280969F /* Pods-flashlight-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 40C4BF4A8F98F507F280969F /* Pods-Flashlight-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -766,17 +766,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "flashlight-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "Flashlight-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.flashlight-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Flashlight-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flashlight-tvOS.app/flashlight-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flashlight-tvOS.app/Flashlight-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -897,7 +897,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "flashlightTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "FlashlightTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -906,7 +906,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "flashlight" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Flashlight" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -915,7 +915,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "flashlight-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Flashlight-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -924,7 +924,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "flashlight-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Flashlight-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -933,7 +933,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "flashlight" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Flashlight" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

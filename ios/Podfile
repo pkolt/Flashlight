@@ -44,8 +44,8 @@ def flipper_post_install(installer)
   end
 end
 
-target 'flashlight' do
-  # Pods for flashlight
+target 'Flashlight' do
+  # Pods for Flashlight
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -77,7 +77,7 @@ target 'flashlight' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  target 'flashlightTests' do
+  target 'FlashlightTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -94,10 +94,10 @@ target 'flashlight' do
   end
 end
 
-target 'flashlight-tvOS' do
-  # Pods for flashlight-tvOS
+target 'Flashlight-tvOS' do
+  # Pods for Flashlight-tvOS
 
-  target 'flashlight-tvOSTests' do
+  target 'Flashlight-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end
