@@ -28,7 +28,9 @@ const Home = () => {
   );
 };
 
+// 40% padding
 // #7c1fa3
+// #fffeff
 const createStyles = (isDarkTheme: boolean) =>
   StyleSheet.create({
     container: {
