@@ -4,15 +4,15 @@ import {
   StyleSheet,
   StatusBar,
   useColorScheme,
-  BackHandler,
+  // BackHandler,
 } from 'react-native';
-import {useBackHandler} from '@react-native-community/hooks';
+// import {useBackHandler} from '@react-native-community/hooks';
 
 const Home = () => {
-  useBackHandler(() => {
-    BackHandler.exitApp();
-    return true;
-  });
+  // useBackHandler(() => {
+  //   BackHandler.exitApp();
+  //   return true;
+  // });
 
   const colorScheme = useColorScheme();
   const isDarkTheme = colorScheme === 'dark';
@@ -28,6 +28,7 @@ const Home = () => {
   );
 };
 
+// #7c1fa3
 const createStyles = (isDarkTheme: boolean) =>
   StyleSheet.create({
     container: {
