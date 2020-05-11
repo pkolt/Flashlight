@@ -1,4 +1,4 @@
-import React, {useCallback, useState} from 'react';
+import React, {useCallback, useState, useEffect} from 'react';
 import {
   View,
   StyleSheet,
@@ -7,39 +7,62 @@ import {
   TouchableHighlight,
   Text,
 } from 'react-native';
-// import {useBackHandler} from '@react-native-community/hooks';
+
+// @ts-ignore
+import lantern from 'react-native-lantern';
 
 const Home = () => {
-  // useBackHandler(() => {
-  //   return true;
-  // });
+  const [disabledBtn, setDisabledBtn] = useState(true);
+  const [turnState, setTurnState] = useState(false);
+
+  useEffect(() => {
+    (async () => {
+      try {
+        await lantern.ready();
+        setDisabledBtn(false);
+      } catch (err) {
+        console.error(err);
+      }
+    })();
+  }, []);
+
+  useEffect(() => {
+    return lantern.subscribe('onTurn', (event: any) =>
+      setTurnState(event.value),
+    );
+  }, []);
 
   const colorScheme = useColorScheme();
 
-  const [isTurnOn, setTurnOn] = useState(false);
-
-  const onPress = useCallback(() => {
-    setTurnOn(!isTurnOn);
-  }, [isTurnOn]);
+  const onPress = useCallback(async () => {
+    const value = !turnState;
+    try {
+      await lantern.turn(value);
+      setTurnState(value);
+    } catch (err) {
+      console.log(err);
+    }
+  }, [turnState]);
 
   const isDarkTheme = colorScheme === 'dark';
   const barStyle = isDarkTheme ? 'light-content' : 'dark-content';
-  const backgroundColor = isDarkTheme ? '#000' : '#fff';
-  const underlayColor = isTurnOn ? '#ff616f' : '#af52d5';
-  const styles = createStyles(isDarkTheme, isTurnOn);
+  const statusBarBgColor = isDarkTheme ? '#000' : '#fff';
+  const btnUnderlayColor = turnState ? '#ff616f' : '#af52d5';
+  const styles = createStyles(isDarkTheme, turnState);
 
   return (
     <>
-      <StatusBar barStyle={barStyle} backgroundColor={backgroundColor} />
+      <StatusBar barStyle={barStyle} backgroundColor={statusBarBgColor} />
       <View style={styles.container}>
         <View style={styles.containerMain} />
         <View style={styles.containerFooter}>
           <TouchableHighlight
             style={styles.button}
-            underlayColor={underlayColor}
+            disabled={disabledBtn}
+            underlayColor={btnUnderlayColor}
             onPress={onPress}>
             <Text style={styles.buttonText}>
-              {isTurnOn ? 'Выключить' : 'Включить'}
+              {turnState ? 'Выключить' : 'Включить'}
             </Text>
           </TouchableHighlight>
         </View>
@@ -48,9 +71,6 @@ const Home = () => {
   );
 };
 
-// 40% padding
-// #7c1fa3
-// #fffeff
 const createStyles = (isDarkTheme: boolean, isTurnOn: boolean) =>
   StyleSheet.create({
     container: {
