@@ -1,6 +1,6 @@
 {
   "name": "Flashlight",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": true,
   "scripts": {
     "clean-android": "cd android && ./gradlew clean",
@@ -14,27 +14,31 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
-    "@react-native-community/hooks": "2.4.9",
-    "react": "16.11.0",
+    "@react-native-community/hooks": "2.5.1",
+    "react": "16.13.1",
     "react-native": "0.62.2",
-    "react-native-lantern": "1.0.0"
+    "react-native-i18n": "2.0.15",
+    "react-native-lantern": "1.0.3"
   },
   "devDependencies": {
-    "@babel/core": "7.6.2",
-    "@babel/runtime": "7.6.2",
-    "@react-native-community/eslint-config": "1.0.0",
-    "@types/jest": "24.0.24",
-    "@types/react-native": "0.62.0",
+    "@babel/core": "7.9.6",
+    "@babel/runtime": "7.9.6",
+    "@react-native-community/eslint-config": "1.1.0",
+    "@types/jest": "25.2.3",
+    "@types/react-native": "0.62.11",
+    "@types/react-native-i18n": "2.0.0",
     "@types/react-test-renderer": "16.9.2",
     "@typescript-eslint/eslint-plugin": "2.27.0",
     "@typescript-eslint/parser": "2.27.0",
-    "babel-jest": "24.9.0",
+    "babel-jest": "26.0.1",
     "eslint": "6.5.1",
-    "jest": "24.9.0",
-    "metro-react-native-babel-preset": "0.58.0",
-    "prettier": "2.0.4",
+    "husky": "4.2.5",
+    "jest": "26.0.1",
+    "metro-react-native-babel-preset": "0.59.0",
+    "npm-check-updates": "6.0.1",
+    "prettier": "2.0.5",
     "react-native-rename": "2.4.1",
-    "react-test-renderer": "16.11.0",
+    "react-test-renderer": "16.13.1",
     "typescript": "3.8.3"
   },
   "jest": {

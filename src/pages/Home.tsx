@@ -1,15 +1,9 @@
-import React, {useCallback, useState, useEffect} from 'react';
-import {
-  View,
-  StyleSheet,
-  StatusBar,
-  useColorScheme,
-  TouchableHighlight,
-  Text,
-} from 'react-native';
+import React, { useCallback, useState, useEffect, useMemo } from 'react';
+import { View, StyleSheet, StatusBar, useColorScheme, TouchableHighlight, Text } from 'react-native';
 
-// @ts-ignore
 import lantern from 'react-native-lantern';
+import I18n from '../i18n/i18n';
+import { Colors } from '../styles/colors';
 
 const Home = () => {
   const [disabledBtn, setDisabledBtn] = useState(true);
@@ -27,9 +21,7 @@ const Home = () => {
   }, []);
 
   useEffect(() => {
-    return lantern.subscribe('onTurn', (event: any) =>
-      setTurnState(event.value),
-    );
+    return lantern.subscribe('onTurn', (event) => setTurnState(event.value));
   }, []);
 
   const colorScheme = useColorScheme();
@@ -46,9 +38,9 @@ const Home = () => {
 
   const isDarkTheme = colorScheme === 'dark';
   const barStyle = isDarkTheme ? 'light-content' : 'dark-content';
-  const statusBarBgColor = isDarkTheme ? '#000' : '#fff';
-  const btnUnderlayColor = turnState ? '#ff616f' : '#af52d5';
-  const styles = createStyles(isDarkTheme, turnState);
+  const statusBarBgColor = isDarkTheme ? Colors.BLACK : Colors.WHITE;
+  const btnUnderlayColor = turnState ? Colors.LIGHT_CRIMSON : Colors.LIGHT_PURPLE;
+  const styles = useMemo(() => createStyles(isDarkTheme, turnState), [isDarkTheme, turnState]);
 
   return (
     <>
@@ -61,9 +53,7 @@ const Home = () => {
             disabled={disabledBtn}
             underlayColor={btnUnderlayColor}
             onPress={onPress}>
-            <Text style={styles.buttonText}>
-              {turnState ? 'Выключить' : 'Включить'}
-            </Text>
+            <Text style={styles.buttonText}>{turnState ? I18n.t('turnOff') : I18n.t('turnOn')}</Text>
           </TouchableHighlight>
         </View>
       </View>
@@ -74,7 +64,7 @@ const Home = () => {
 const createStyles = (isDarkTheme: boolean, isTurnOn: boolean) =>
   StyleSheet.create({
     container: {
-      backgroundColor: isDarkTheme ? '#000' : '#fff',
+      backgroundColor: isDarkTheme ? Colors.BLACK : Colors.WHITE,
       flex: 1,
     },
     containerMain: {
@@ -90,13 +80,13 @@ const createStyles = (isDarkTheme: boolean, isTurnOn: boolean) =>
       borderRadius: 34,
       paddingHorizontal: 25,
       paddingVertical: 8,
-      backgroundColor: isTurnOn ? '#ff1744' : '#7c1fa3',
+      backgroundColor: isTurnOn ? Colors.CRIMSON : Colors.PURPLE,
     },
     buttonText: {
       fontSize: 18,
       fontWeight: 'bold',
-      color: '#eee',
+      color: Colors.GRAY,
     },
   });
 
-export {Home};
+export { Home };
