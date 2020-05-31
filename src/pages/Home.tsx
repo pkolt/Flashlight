@@ -26,7 +26,7 @@ const Home = () => {
 
   const colorScheme = useColorScheme();
 
-  const onPress = useCallback(async () => {
+  const handlePress = useCallback(async () => {
     const value = !turnState;
     try {
       await lantern.turn(value);
@@ -52,7 +52,7 @@ const Home = () => {
             style={styles.button}
             disabled={disabledBtn}
             underlayColor={btnUnderlayColor}
-            onPress={onPress}>
+            onPress={handlePress}>
             <Text style={styles.buttonText}>{turnState ? I18n.t('turnOff') : I18n.t('turnOn')}</Text>
           </TouchableHighlight>
         </View>
