@@ -3,7 +3,7 @@ import { View, StyleSheet, StatusBar, useColorScheme, TouchableHighlight, Text }
 
 import lantern from 'react-native-lantern';
 import I18n from '../i18n/i18n';
-import { Colors } from '../styles/colors';
+import { Colors } from '../constants';
 
 const Home = () => {
   const [disabledBtn, setDisabledBtn] = useState(true);
