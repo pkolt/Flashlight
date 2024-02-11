@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         button = findViewById(R.id.button);
+        updateButton();
 
         if (!isFlashAvailable()) {
             // If the flashlight is not available on the device, disable the button
